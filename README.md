@@ -1,38 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+NextPad
+=======
 
-## Getting Started
+NextPad is a simple text editor built with React and Next.js. It allows users to create, edit, and save plain text files directly in the browser. NextPad's features include syntax highlighting, line numbers, and keyboard shortcuts.
 
-First, run the development server:
+Getting Started
+---------------
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+To use NextPad, simply go to the [demo page](https://nextpad.prayasj.vercel.app/) and start typing. There is no need to download or install anything.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Running Locally
+---------------
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+If you want to run NextPad locally, follow these steps:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+1.  Clone the repository:
+    
+    `git clone https://github.com/PrayasJ/nextpad.git`
+    
+2.  Install the dependencies:
+    
+    `cd nextpad npm install`
+    
+3.  Start the development server:
+    
+    `npm run dev`
+    
+    This will start the server at `http://localhost:3000`.
+    
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Contributing
+------------
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+If you find a bug or want to contribute to NextPad, please open an issue or submit a pull request. Contributions are always welcome!
 
-## Learn More
+License
+-------
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+NextPad is released under the [MIT License](https://opensource.org/licenses/MIT).
